@@ -1,0 +1,53 @@
+body
+{
+    background-color: greenyellow;
+}
+#score
+{
+    font-size: 30px;
+    margin-left: 20px;
+    float:left;
+}
+#timer
+{
+    font-size: 30px;
+    float: right;
+    margin-right: 20px;
+}
+#label1
+{
+    color: blue;
+    font-weight: bold;
+}
+h1
+{
+    color: blue;
+    background-color: cornsilk;
+}
+
+#show_sketch
+{
+    float: right;
+    border-radius: 10px;
+}
+canvas
+{
+  border: 5px violet;
+  border-radius: 20px;
+  animation-name: example;
+  animation-duration: 3s;
+  margin-top: 100px;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from{box-shadow: 10px 5px 38px purple;}
+    to{box-shadow: 10px 5px 38px green;}
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+}
